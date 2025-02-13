@@ -9734,6 +9734,36 @@ textarea.form-control {
     width: calc(100% + 60px);
     left: 0;
 }
+@media (max-width: 767px) { /* Targets mobile devices */
+  .wrap {
+    display: none;
+  }
+}
+.navbar-brand.brand {
+  font-weight: bold;
+  font-size: 18px; /* Default size */
+}
+
+/* Media query for tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .navbar-brand.brand {
+      font-size: 16px;
+  }
+}
+
+/* Media query for mobile devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .navbar-brand.brand {
+      font-size: 12px;
+  }
+}
+
+/* Media query for very small screens (max-width: 360px) */
+@media screen and (max-width: 360px) {
+  .navbar-brand.brand {
+      font-size: 12px;
+  }
+}
 
   /* .portfolio-section .filters {
     border: 2px solid #dee2e6;
