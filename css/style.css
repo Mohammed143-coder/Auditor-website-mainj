@@ -9658,8 +9658,8 @@ textarea.form-control {
         .portfolio-item {
             position: relative;
             overflow: hidden;
-            border-radius: 10px;
-            margin-bottom:20px;
+            border-radius: 5px;
+            margin-bottom:50px;
         }
 
         .portfolio-item img {
